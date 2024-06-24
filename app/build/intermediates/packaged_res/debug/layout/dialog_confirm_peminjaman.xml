@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_success"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peminjaman Berhasil"
+        style="@style/Heading3"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengajuanmu sudah tercatat!"
+        android:gravity="center"
+        style="@style/Caption3"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/namaRuangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruangan"
+        android:gravity="center"
+        style="@style/Bold1"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/Tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:gravity="center"
+        style="@style/Caption3"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/NamaKegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Kegiatan"
+        android:gravity="center"
+        style="@style/Caption3"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="@color/neutral300"
+            style="@style/Button"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Riwayat"
+            style="@style/Button"/>
+
+    </LinearLayout>
+</LinearLayout>

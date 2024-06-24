@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_fragment_ditolak.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/fragment_ditolak.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_whatsapp.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_whatsapp.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_item_notification.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_bg_with_top_radius.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/bg_with_top_radius.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_badge_diproses.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/badge_diproses.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ru_kun.app-pngs-44:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_login.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/xml_backup_rules.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_pdf.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_pdf.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_chevronright_red.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_chevronright_red.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/font_poppins_regular.ttf.flat",
+        "source": "com.example.ru_kun.app-main-51:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_item_cardview_riwayat_selesai.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/item_cardview_riwayat_selesai.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_fragment_selesai.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/fragment_selesai.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_upload.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/upload.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_bg_with_bottomradius.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/bg_with_bottomradius.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_beranda.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_beranda.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/font_poppins_bold.ttf.flat",
+        "source": "com.example.ru_kun.app-main-51:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_checklist.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_checklist.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_riwayat.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_riwayat.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_success.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_success.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_fragment_sedang_diproses.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/fragment_sedang_diproses.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_pusatbantuan.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_pusatbantuan.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_camera.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_camera.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_editprofil.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_editprofil.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_home.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_pinjam.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_pinjam.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_pop_up_menu_bg.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/pop_up_menu_bg.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_profile.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/profile.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_pinjam.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_pinjam.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_item_cardview_riwayat.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/item_cardview_riwayat.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_calendar.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_calendar.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_badge_available.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/badge_available.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_form_pinjam.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_form_pinjam.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_badge_diterima.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/badge_diterima.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_pusat_bantuan.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_pusat_bantuan.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_badge_ditolak.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/badge_ditolak.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_statusditolak.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_statusditolak.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_notif.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_notif.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/menu_filter_ruangan.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/menu/filter_ruangan.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_item_cardview_home.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/item_cardview_home.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_detail_peminjaman_selesai.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_detail_peminjaman_selesai.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_logo_rukun.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/logo_rukun.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/font_poppins_medium.ttf.flat",
+        "source": "com.example.ru_kun.app-main-51:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_profil.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_profil.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_riwayat.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_riwayat.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/font_poppins_semibold.ttf.flat",
+        "source": "com.example.ru_kun.app-main-51:/font/poppins_semibold.ttf"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_detail_ruangan.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_detail_ruangan.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_ubah_profil.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_ubah_profil.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_jam.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_jam.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_filter.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_filter.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_profil.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_profil.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_statusproses.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_statusproses.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_arrow_back.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_arrow_back.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_keluar.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_keluar.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_item_cardview_pinjam.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/item_cardview_pinjam.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_shape_search_view.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/shape_search_view.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_info.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_info.png"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.ru_kun.app-main-51:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_detail_peminjaman_ditolak.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_detail_peminjaman_ditolak.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_activity_detail_peminjaman_diproses.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/activity_detail_peminjaman_diproses.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_dialog_confirm_exit.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/dialog_confirm_exit.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_item_cardview_riwayat_ditolak.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/item_cardview_riwayat_ditolak.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_statusnotif.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_statusnotif.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_badge_not_available.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/badge_not_available.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_notification.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_notification.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/layout_dialog_confirm_peminjaman.xml.flat",
+        "source": "com.example.ru_kun.app-main-51:/layout/dialog_confirm_peminjaman.xml"
+    },
+    {
+        "merged": "com.example.ru_kun.app-merged_res-49:/drawable_icon_chevronright.png.flat",
+        "source": "com.example.ru_kun.app-main-51:/drawable/icon_chevronright.png"
+    }
+]

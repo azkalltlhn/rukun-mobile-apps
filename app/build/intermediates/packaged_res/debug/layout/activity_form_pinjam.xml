@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_arrow_back"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Form Peminjaman Ruangan"
+            style="@style/Heading2"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonBack"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idAjuan"
+                style="@style/Caption4"
+                android:textColor="@color/neutral300"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                tools:text="IDAJUAN" />
+
+            <!-- Isi Form Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/namaLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Peminjam"
+                    android:textColor="@color/neutral400"
+                    android:layout_marginTop="16dp"
+                    style="@style/Body3"/>
+
+                <!-- Auto Filled Nama Lengkap -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namaLabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textNama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama User"
+                        android:inputType="none"
+                        android:focusable="false"
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/NIMlabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NIM / NIP"
+                    android:textColor="@color/neutral400"
+                    android:layout_marginTop="16dp"
+                    style="@style/Body3"/>
+
+                <!-- Auto Filled NIM -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutNim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NIMlabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textNIM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="NIM User"
+                        android:inputType="none"
+                        android:focusable="false"
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/NamaRuanganLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Ruangan"
+                    android:textColor="@color/neutral400"
+                    android:layout_marginTop="16dp"
+                    style="@style/Body3"/>
+
+                <!-- Auto Filled Nama Ruangan -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutRuangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NamaRuanganLabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textNamaRuangan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama Ruangan"
+                        android:inputType="none"
+                        android:focusable="false"
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/TglLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Pinjam"
+                    android:textColor="@color/neutral400"
+                    android:layout_marginTop="16dp"
+                    style="@style/Body3"/>
+
+                <!-- Input tanggal -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputTanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TglLabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textTanggal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Tanggal"
+                        android:inputType="none"
+                        android:focusable="false"
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/WaktuMulaiLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Waktu Mulai"
+                    android:textColor="@color/neutral400"
+                    android:layout_marginTop="16dp"
+                    style="@style/Body3"/>
+
+                <!-- Input Waktu Mulai -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutMulai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/WaktuMulaiLabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textWktMulai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="XX : XX"
+                        android:focusable="false"
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/WaktuSelesaiLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Waktu Selesai"
+                    android:textColor="@color/neutral400"
+                    android:layout_marginTop="16dp"
+                    style="@style/Body3"/>
+
+                <!-- Input Waktu Selesai-->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutSelesai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/WaktuSelesaiLabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textWktSelesai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="XX : XX"
+                        android:focusable="false"
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/NamaKegiatanLabel"
+                    style="@style/Body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Nama Kegiatan"
+                    android:textColor="@color/neutral400" />
+
+                <!-- Input Nama Kegiatan-->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutKegiatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NamaKegiatanLabel"
+                    android:layout_marginTop="8dp"
+                    app:hintEnabled="false"
+                    style="@style/TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/NamaKegiatan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Tulis nama kegiatanmu..."
+                        style="@style/TextInputLayout.HintText"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageUpload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/upload"
+                        android:layout_marginRight="12dp"/>
+
+                    <TextView
+                        android:id="@+id/SuratKegiatan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unggah Surat Izin Kegiatan"
+                        android:background="@null"
+                        style="@style/Body3"
+                        android:textAlignment="center"
+                        android:onClick="onSuratKegiatanClick"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonAjukan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    style="@style/Button"
+                    android:text="Ajukan" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

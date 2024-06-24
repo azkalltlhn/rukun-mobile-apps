@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_arrow_back"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Detail Peminjaman"
+            style="@style/Heading2"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonBack"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Konten Utama -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Content -->
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/header">
+
+            <!-- Baris 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Foto -->
+                <ImageView
+                    android:id="@+id/img_ruangan"
+                    android:layout_width="145dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile"/>
+
+                <!-- Detail -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:id="@+id/idditolak"
+                        style="@style/Caption4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IDPINJAM00001"
+                        android:textColor="@color/neutral300"/>
+
+                    <TextView
+                        android:id="@+id/nama_ruang"
+                        style="@style/Body3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FIKLAB - 304"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
+
+                    <!-- Badge proses -->
+                    <TextView
+                        android:id="@+id/textBadge"
+                        style="@style/Body5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/badge_ditolak"
+                        android:text="Ditolak"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Baris 2 - Informasi Peminjaman -->
+            <TextView
+                android:id="@+id/textInfoPeminjaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi Peminjaman"
+                style="@style/Heading4"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/namaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Peminjam"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Auto Filled Nama Lengkap -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/namaLabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/namauser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Natasha Azzahra"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/NIMlabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Auto Filled NIM -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutNim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/NIMlabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="2110512041"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/Tanggallabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Auto Filled Tanggal -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Tanggallabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tgl_ruangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="29 Maret 2024"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/NamaRuanganLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Ruangan"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Auto Filled Nama Ruangan -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutRuangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/NamaRuanganLabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nama_ruangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="FIKLAB-304"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/WaktuMulaiLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu Mulai"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Input Waktu Mulai -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutMulai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/WaktuMulaiLabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/wkt_mulai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="13 : 00 WIB"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/WaktuSelesaiLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu Selesai"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Input Waktu Selesai-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutSelesai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/WaktuSelesaiLabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/wkt_selesai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="14 : 00 WIB"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/NamaKegiatanLabel"
+                style="@style/Body3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Nama Kegiatan"
+                android:textColor="@color/neutral400" />
+
+            <!-- Input Nama Kegiatan-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutKegiatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/NamaKegiatanLabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nama_kegiatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Acara seminar"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/Suratizinlabel"
+                style="@style/Body3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Surat Izin"
+                android:textColor="@color/neutral400" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_pdf"
+                    android:layout_marginRight="12dp"/>
+
+                <TextView
+                    android:id="@+id/SuratKegiatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surat Izin Peminjaman.pdf"
+                    android:background="@null"
+                    style="@style/Body3"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <!-- Informasi Persetujuan -->
+            <TextView
+                android:id="@+id/textInfoPenolakan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi Penolakan"
+                style="@style/Heading4"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/ditolakLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ditolak Oleh"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- Auto Filled Nama Lengkap -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutDisetujui"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/disetujuiLabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/namaadmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Malik Saputra"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/TglDitolaklabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Penolakan"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!--  Tgl -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutTglDitolak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TglDitolaklabel"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tgl_ditolak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="1 April 2024"
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/AlasanLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alasan Penolakan"
+                android:textColor="@color/neutral400"
+                android:layout_marginTop="16dp"
+                style="@style/Body3"/>
+
+            <!-- catatan -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutAlasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Alasan"
+                android:layout_marginTop="8dp"
+                app:hintEnabled="false"
+                style="@style/TextInputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/catatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Permohonan peminjaman ruangan tidak memenuhi persyaratan yang ditetapkan."
+                    android:inputType="none"
+                    android:focusable="false"
+                    style="@style/TextInputLayout.HintText"
+                    android:layout_marginBottom="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

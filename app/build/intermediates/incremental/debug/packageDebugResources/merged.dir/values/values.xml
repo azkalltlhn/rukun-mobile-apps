@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="neutral100">#E8E8E8</color>
+    <color name="neutral200">#B5B5B5</color>
+    <color name="neutral300">#8A8A8A</color>
+    <color name="neutral400">#545454</color>
+    <color name="neutral500">#333333</color>
+    <color name="orange100">#FFC5B0</color>
+    <color name="orange200">#FFA98A</color>
+    <color name="orange300">#FF8254</color>
+    <color name="orange400">#FF6A33</color>
+    <color name="orange50">#FFECE6</color>
+    <color name="orange500">#FF4500</color>
+    <color name="orange600">#E83F00</color>
+    <color name="orange700">#B53100</color>
+    <color name="orange800">#8C2600</color>
+    <color name="orange900">#6B1D00</color>
+    <color name="red">#DB3030</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Ru-Kun</string>
+    <string name="firebase_database_url" translatable="false">https://ru-kun-7d224-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">177505951504</string>
+    <string name="google_api_key" translatable="false">AIzaSyD8m5D64OHG--tlEpOef4P_hm8uOdDa97Y</string>
+    <string name="google_app_id" translatable="false">1:177505951504:android:3fcca64146c191c6bd4f95</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD8m5D64OHG--tlEpOef4P_hm8uOdDa97Y</string>
+    <string name="google_storage_bucket" translatable="false">ru-kun-7d224.appspot.com</string>
+    <string name="project_id" translatable="false">ru-kun-7d224</string>
+    <style name="Base.Theme.RuKun" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/orange400</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+    </style>
+    <style name="Body1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/neutral400</item>
+    </style>
+    <style name="Body3">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral400</item>
+    </style>
+    <style name="Body4">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral400</item>
+    </style>
+    <style name="Body5">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/neutral400</item>
+    </style>
+    <style name="Bold1">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/orange400</item>
+        <item name="android:padding">8dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Caption2">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Caption3">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Caption4">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CustomTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorColor">@color/orange400</item>
+        <item name="tabSelectedTextColor">@color/orange400</item>
+        <item name="tabTextColor">@color/neutral300</item>
+        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
+    </style>
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="Heading1">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Heading2">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/neutral500</item>
+    </style>
+    <style name="Heading3">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/neutral500</item>
+    </style>
+    <style name="Heading4">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral500</item>
+    </style>
+    <style name="Heading6">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/neutral500</item>
+    </style>
+    <style name="PopupMenuStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/pop_up_menu_bg</item>
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">@color/orange600</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextInputLayout.HintText</item>
+        <item name="boxStrokeColor">@color/neutral300</item>        <item name="boxBackgroundColor">@android:color/transparent</item>         <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+
+        
+    </style>
+    <style name="TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral400</item>
+        
+    </style>
+    <style name="Theme.RuKun" parent="Base.Theme.RuKun"/>
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/orange300</item>
+        <item name="itemIconTint">@color/orange800</item>
+        <item name="itemTextColor">@color/neutral400</item>
+    </style>
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+</resources>
